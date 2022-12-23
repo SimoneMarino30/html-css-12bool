@@ -1,0 +1,17 @@
+/* BOX */
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 1rem;
+}
+
+.box>div {
+    min-height: 3rem;
+    background-color: #01e165;
+    border: none;
+    border-right: 2px solid #006dfa;
+}
+
